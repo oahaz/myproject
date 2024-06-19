@@ -12,62 +12,23 @@ body {
   padding-block: 8px;
   padding-inline: 8px;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 900;
+  color: rgb(0, 94, 255);
   background-color: aqua;
 }
 
 .under {
   padding: 0 auto;
-  padding-top: 200px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   margin: 0 auto;
   text-align: center;
   background-color: #ffbbec;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0 auto;
-}
-
-.info {
-  color: #ffbbec;
-  text-align: center;
-}
-
-.target {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 20px;
-  background-color: #000;
-  transform: translate(-50%, -50%) rotate(0deg);
-}
-
-.target::after {
-  position: absolute;
-  top: 5px;
-  left: -15px;
-  width: 0;
-  height: 0;
-  content: "";
-  border-top: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid none;
-  border-left: 30px solid #000;
-  transform: rotate(45deg);
-}
-
-.cover {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.5);
-  transform: translate(-50%, -50%);
+.text {
+  padding: 20px;
 }
